@@ -1,0 +1,15 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр2\гл8_лр2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр2\гл8_лр2\kernel.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+C:/Users/Настя/Desktop/ивмиит/4 курс 1 семестр/cuda/глава 8/гл8_лр2/гл8_лр2/kernel.cu(37): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:/Users/Настя/Desktop/ивмиит/4 курс 1 семестр/cuda/глава 8/гл8_лр2/гл8_лр2/kernel.cu(59): warning C4473: "printf": передано недостаточно аргументов для строки формата
+  C:/Users/Настя/Desktop/ивмиит/4 курс 1 семестр/cuda/глава 8/гл8_лр2/гл8_лр2/kernel.cu(59): note: заполнители и их параметры ожидают переменное число аргументов в количестве 3, но было предоставлено 1
+  C:/Users/Настя/Desktop/ивмиит/4 курс 1 семестр/cuda/глава 8/гл8_лр2/гл8_лр2/kernel.cu(59): note: отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+  гл8_лр2.vcxproj -> C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр2\Debug\гл8_лр2.exe
+  гл8_лр2.vcxproj -> C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр2\Debug\гл8_лр2.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр2\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+  Скопировано файлов:         2.
