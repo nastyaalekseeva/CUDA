@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Настя\Desktop\4 курс 1 семестр\cuda\гл2_лр1\гл2_лр1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Настя\Desktop\4 курс 1 семестр\cuda\гл2_лр1\гл2_лр1\kernel.cu" 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+C:/Users/Настя/Desktop/4 курс 1 семестр/cuda/гл2_лр1/гл2_лр1/kernel.cu(20): warning C4474: "printf" : для строки формата передано слишком много аргументов
+  C:/Users/Настя/Desktop/4 курс 1 семестр/cuda/гл2_лр1/гл2_лр1/kernel.cu(20): note: заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 2
+  гл2_лр1.vcxproj -> C:\Users\Настя\Desktop\4 курс 1 семестр\cuda\гл2_лр1\Debug\гл2_лр1.exe
+  гл2_лр1.vcxproj -> C:\Users\Настя\Desktop\4 курс 1 семестр\cuda\гл2_лр1\Debug\гл2_лр1.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Настя\Desktop\4 курс 1 семестр\cuda\гл2_лр1\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+  Скопировано файлов:         2.
