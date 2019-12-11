@@ -1,0 +1,6 @@
+﻿  гл8_лр1.vcxproj -> C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр1\Debug\гл8_лр1.exe
+  гл8_лр1.vcxproj -> C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр1\Debug\гл8_лр1.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Настя\Desktop\ивмиит\4 курс 1 семестр\cuda\глава 8\гл8_лр1\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+  Скопировано файлов:         2.
